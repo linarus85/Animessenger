@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ChangeNameFragment">
+
+    <EditText
+        android:id="@+id/et_name_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F2F2"
+        android:hint="@string/change_name"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColorHint="#000"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="200dp" />
+
+</FrameLayout>

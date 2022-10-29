@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.EnterPhoneNumberFragment">
+
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F2F2"
+        android:inputType="phone"
+        android:hint="@string/number"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColorHint="#000"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="200dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fl_btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/default_margin"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/ic_next"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</FrameLayout>
